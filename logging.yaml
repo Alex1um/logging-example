@@ -13,6 +13,7 @@ handlers:
     class: logging.FileHandler
     level: DEBUG
     filename: log.log
+    formatter: simple
 loggers:
   simpleExample:
     level: DEBUG

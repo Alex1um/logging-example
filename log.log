@@ -1,8 +1,8 @@
-Starting
-Starting submodule function
-Some error was caught: Some caught exception
-Starting module function
-Uncaught exception
+2024-12-04 20:55:37,887 - __main__ - INFO - Starting
+2024-12-04 20:55:37,887 - root - INFO - Starting submodule function
+2024-12-04 20:55:37,887 - example_subdir.example_submodule - ERROR - Some error was caught: Some caught exception
+2024-12-04 20:55:37,887 - module - INFO - Starting module function
+2024-12-04 20:55:37,887 - root - ERROR - Uncaught exception
 Traceback (most recent call last):
   File "/media/ForWindows/Projects/logging-example/__main__.py", line 15, in <module>
     module_function()
