@@ -1,0 +1,11 @@
+Starting
+Starting submodule function
+Some error was caught: Some caught exception
+Starting module function
+Uncaught exception
+Traceback (most recent call last):
+  File "/media/ForWindows/Projects/logging-example/__main__.py", line 15, in <module>
+    module_function()
+  File "/media/ForWindows/Projects/logging-example/module.py", line 8, in module_function
+    raise Exception("Some uncaught exception")
+Exception: Some uncaught exception
